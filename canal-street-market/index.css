@@ -1,3 +1,7 @@
 body {
   font-family: "Edu TAS Beginner", cursive, sans-serif;
 }
+
+.wrapper {
+  padding: 250px 60px 120px;
+}
