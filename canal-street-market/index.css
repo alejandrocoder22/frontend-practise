@@ -2,6 +2,9 @@ body {
   font-family: "Edu TAS Beginner", cursive, sans-serif;
 }
 
+header {
+  padding: 3rem;
+}
 .wrapper {
-  padding: 250px 60px 120px;
+  padding: 3rem;
 }
