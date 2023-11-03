@@ -18,9 +18,20 @@ header {
 
 .sidebar {
   width: 25%;
-  background-color: black;
   position: fixed;
   top: 0;
   right: 0;
   height: 100%;
+}
+
+.sidebar__food {
+  background-color: rgb(94, 163, 236);
+}
+
+.sidebar__food {
+  background-color: rgb(246, 68, 68);
+}
+
+.sidebar__food {
+  background-color: rgb(255, 180, 0);
 }
