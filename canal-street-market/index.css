@@ -47,7 +47,15 @@ header {
   width: 33%;
 }
 
-.sidebar__food div,
-.sidebar__community,
-.sidebar__retail {
+.sidebar__food p,
+.sidebar__community p,
+.sidebar__retail p {
+  height: 30%;
+  padding-top: 4rem;
+}
+
+.sidebar__food span,
+.sidebar__community span,
+.sidebar__retail span {
+  height: 80%;
 }
