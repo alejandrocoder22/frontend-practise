@@ -30,9 +30,18 @@ ul {
 
 @media (max-width: 700px) {
   .menu {
-    display: none;
+    height: 0;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    flex-direction: column;
+    transition: height 1s ease;
   }
 
+  .togglemenu {
+    height: 100vh;
+    visibility: visible;
+  }
   .hamburger {
     display: flex;
   }
