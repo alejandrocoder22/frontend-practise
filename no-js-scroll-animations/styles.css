@@ -1,0 +1,19 @@
+header {
+  text-align: center;
+  padding: 20px 100px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+section {
+  columns: 2;
+  column-gap: 1rem;
+  padding: 100px;
+}
+
+section img {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
