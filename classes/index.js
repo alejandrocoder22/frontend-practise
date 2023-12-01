@@ -4,9 +4,13 @@ class Car {
         this.price = price
         this.weight = weight
     }
+
+       accelerate() {
+            return 'Run run!!'
+    }
 }
 
 
 const mercedes = new Car('mercedes', 45000, 2500)
 
-console.log(mercedes.price)
+console.log(mercedes.accelerate())
